@@ -1,0 +1,7 @@
+base   passwords
+author Samson-IT
+email  info@samson-it.nl
+date   2011-08-31
+name   Generate passwords
+desc   Generate passwords with length and amount setting. Don't forget to put ~~NOCACHE~~ in your page!
+url    http://www.dokuwiki.org/plugin:passwords

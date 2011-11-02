@@ -1,0 +1,7 @@
+/* plugin:passwords */
+.inputfield {
+    font-family: monospace; 
+    margin: 2px 0 2px 5px; 
+    border: none; 
+    cursor: pointer;
+}
