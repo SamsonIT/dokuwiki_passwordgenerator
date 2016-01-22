@@ -73,7 +73,7 @@ class syntax_plugin_passwords extends DokuWiki_Syntax_Plugin
      * 
      * @return array
      */
-    public function handle($match, $state, $pos, &$handler) {
+    public function handle($match, $state, $pos, Doku_Handler $handler) {
         return array($match, $state, $pos);
     }
     
@@ -86,7 +86,7 @@ class syntax_plugin_passwords extends DokuWiki_Syntax_Plugin
      * 
      * @return type boolean is de operatie geslaagd?
      */
-    public function render($format, &$renderer, $data) {
+    public function render($format, Doku_Renderer $renderer, $data) {
         if('xhtml' === $format) {
             $this->iterator = 0;
             $this->parseData($data[0]);
